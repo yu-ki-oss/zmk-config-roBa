@@ -91,19 +91,19 @@
 
         kigou {
             bindings = <
-&kp MINUS  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans     &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans     &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans     &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp MINUS      &kp PLUS        &kp ASTERISK  &kp SLASH             &trans                                                &kp LBKT        &kp RIGHT_BRACKET  &kp GRAVE            &kp COLON          &kp SEMICOLON
+&kp AMPERSAND  &kp APOSTROPHE  &kp UNDER     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans              &trans     &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW         &kp RIGHT_ARROW    &mkp LCLK
+&trans         &kp TILDE       &kp CARET     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp INT_YEN         &trans     &kp LT          &kp GREATER_THAN   &kp RS(EXCLAMATION)  &kp DOUBLE_QUOTES  &mkp RCLK
+&trans         &trans          &trans        &trans                &lt 0 LANGUAGE_5       &kp INT_HENKAN      &kp SPACE  &lt 2 INT_KANA                                                             &mkp MB4
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp F1            &kp F2             &kp F3                &kp F4                 &kp F5                                                    &kp PLUS        &kp N7        &kp N8        &kp N9     &kp MINUS
+&kp F6            &kp F7             &kp F8                &kp F9                 &kp F10        &kp LC(LA(KP_NUMBER_0))      &kp ASTERISK  &kp NUMBER_4    &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &mkp LCLK
+&kp F11           &kp F12            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN             &kp EQUAL     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp N0     &mkp RCLK
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &lt 0 LANG5    &kp INT_HENKAN               &kp SPACE     &lt 1 INT_KANA                                         &mkp MB4
             >;
         };
 
